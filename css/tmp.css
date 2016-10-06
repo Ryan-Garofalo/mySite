@@ -1,0 +1,13 @@
+/*.owl-item > div {
+  background-color: red;
+  height: 0;
+  width: 100%;
+}
+
+.owl-item > div img {
+  width: 100%;
+}*/
+#imageJavascript{
+  height:25px;
+  width: auto;
+}
