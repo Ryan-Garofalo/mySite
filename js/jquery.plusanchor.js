@@ -1,12 +1,4 @@
-/*
- * jQuery PlusAnchor 1.0.7.3
- * By Jamy Golden
- * http://css-plus.com
- *
- * Copyright 2011, Jamy Golden
- * Free to use under the MIT license.
- * http://www.opensource.org/licenses/mit-license.php
- */
+
 (function($){
     $.plusAnchor = function(el, options){
         // To avoid scope issues, use 'base' instead of 'this'
@@ -32,13 +24,13 @@
             // End onInit callback
 
             base.$el.find('a[href^="#"]').click(function( e ) {
-                
+
                 e.preventDefault();
-                
+
                 var $this = $(this),
                     href = $this.attr('href'),
                     $name = $('a[name="' + $(this).attr('href').substring(1) + '"]');
-                    
+
                 if ( $(href).length ){
 
                     // onSlide callback
